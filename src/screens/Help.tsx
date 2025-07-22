@@ -10,13 +10,13 @@ export default function Help() {
     Alert.alert(
         "Fale Conosco",
         "Entre em contato pelo e-mail suporte@cefetmg.br",
-        [{ text: "OK" }]
+        [{text: "OK"}]
     );
   };
 
   return (
     <View style={styles.container}>
-       <Ionicons name="help-circle-outline" size={40} color="#005A9C" style={{ marginBottom: 15 }}/>
+       <Ionicons name="help-circle-outline" size={40} color="#005A9C" style={{marginBottom: 15}}/>
       <Text style={styles.title}>Perguntas Frequentes (FAQ)</Text>
 
       <View style={styles.faqList}>

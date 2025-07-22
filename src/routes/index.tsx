@@ -18,7 +18,9 @@ const Cores = {
 
 export default function AppRoutes() {
   return (
+
     <Tab.Navigator
+
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarStyle: {
@@ -48,6 +50,7 @@ export default function AppRoutes() {
       <Tab.Screen name="Início" component={Home} />
       <Tab.Screen name="Horários" component={Schedules} initialParams={{ studentName: undefined }} />
       <Tab.Screen name="Ajuda" component={Help} />
+      
     </Tab.Navigator>
   );
 }

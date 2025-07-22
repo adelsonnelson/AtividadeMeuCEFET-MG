@@ -19,7 +19,7 @@ export default function Schedules() {
       <Ionicons name="calendar-outline" size={40} color="#005A9C" style={{ marginBottom: 15 }} />
       {studentName ? (
         <Text style={styles.title}>
-          Olá, {studentName}! Aqui estão seus horários:
+          Olá, {studentName}. Aqui estão seus horários:
         </Text>
       ) : (
         <Text style={styles.title}>Horários de aula não personalizados.</Text>
